@@ -42,3 +42,8 @@ set("n", "n", "nzzzv",{silent = true})
 set("n", "N", "Nzzzv",{silent = true})
 
 set("x", "<leader>p", "\"_dP",{silent = true})
+
+set("n", "<C-h>", "<C-w>h", {silent = true})
+set("n", "<C-j>", "<C-w>j", {silent = true})
+set("n", "<C-k>", "<C-w>k", {silent = true})
+set("n", "<C-l>", "<C-w>l", {silent = true})
