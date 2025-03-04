@@ -47,3 +47,6 @@ set("n", "<C-h>", "<C-w>h", {silent = true})
 set("n", "<C-j>", "<C-w>j", {silent = true})
 set("n", "<C-k>", "<C-w>k", {silent = true})
 set("n", "<C-l>", "<C-w>l", {silent = true})
+
+vim.keymap.set("n", "<leader>|", "<cmd>vsplit<CR>", { noremap = true, silent = true })
+vim.keymap.set("n", "<leader>/", "<cmd>split<CR>", { noremap = true, silent = true })
