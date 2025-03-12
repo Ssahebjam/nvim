@@ -1,10 +1,13 @@
 local set = vim.keymap.set
 local opt = vim.opt
 
+vim.opt.guicursor = "n-v-c-i:block-blinkon1,r-cr:hor20-blinkon1"
 vim.g.mapleader = " "
-opt.guicursor = ""
 
 set("n", "<C-n>", ":Ex<cr>",{ silent = true })
+
+set("n", "<leader>p", '"+p')
+set("v", "<leader>y", '"+y')
 
 opt.number = true
 opt.relativenumber = true
@@ -36,17 +39,15 @@ opt.updatetime = 50
 
 set("n", "J", "mzJ`z")
 
-set("n", "C-d", "<C-d>zz<cr>",{silent = true})
-set("n", "C-u", "<C-u>zz<cr>",{silent = true})
-set("n", "n", "nzzzv",{silent = true})
-set("n", "N", "Nzzzv",{silent = true})
+set("n", "<C-d>", "<C-d>zz")
+set("n", "<C-u>", "<C-u>zz")
+set("n", "n", "nzzzv")
+set("n", "N", "Nzzzv")
 
-set("x", "<leader>p", "\"_dP",{silent = true})
-
-set("n", "<C-h>", "<C-w>h", {silent = true})
-set("n", "<C-j>", "<C-w>j", {silent = true})
-set("n", "<C-k>", "<C-w>k", {silent = true})
-set("n", "<C-l>", "<C-w>l", {silent = true})
+set("n", "<leader>h", "<C-w>h", {silent = true})
+set("n", "<leader>j", "<C-w>j", {silent = true})
+set("n", "<leader>k>", "<C-w>k", {silent = true})
+set("n", "<leader>l", "<C-w>l", {silent = true})
 
 vim.keymap.set("n", "<leader>|", "<cmd>vsplit<CR>", { noremap = true, silent = true })
 vim.keymap.set("n", "<leader>/", "<cmd>split<CR>", { noremap = true, silent = true })
