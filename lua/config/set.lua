@@ -4,8 +4,6 @@ local opt = vim.opt
 vim.opt.guicursor = "n-v-c-i:block-blinkon1,r-cr:hor20-blinkon1"
 vim.g.mapleader = " "
 
-set("n", "<C-n>", ":Ex<cr>",{ silent = true })
-
 set("n", "<leader>p", '"+p')
 set("v", "<leader>y", '"+y')
 
