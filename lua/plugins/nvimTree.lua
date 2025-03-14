@@ -1,7 +1,8 @@
 return {
-    "nvim-tree/nvim-tree.lua",
-    config = function ()
-        require("nvim-tree").setup()
-        vim.keymap.set("n", "<C-b>", ":NvimTreeToggle<cr>", {silent = true})
-    end
+  "nvim-neo-tree/neo-tree.nvim",
+  dependencies = {
+    "nvim-lua/plenary.nvim",
+    "nvim-tree/nvim-web-devicons",
+    "MunifTanjim/nui.nvim",
+  },
 }

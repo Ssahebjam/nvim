@@ -1,6 +1,8 @@
 local set = vim.keymap.set
 local opt = vim.opt
 
+set("n", "<C-b>", ":Neotree toggle<cr>")
+
 vim.opt.guicursor = "n-v-c-i:block-blinkon1,r-cr:hor20-blinkon1"
 vim.g.mapleader = " "
 
