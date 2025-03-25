@@ -1,7 +1,7 @@
 local set = vim.keymap.set
 local opt = vim.opt
 
-set("n", "<C-b>", ":Neotree toggle<cr>")
+set("n", "<C-b>", ":Ex<cr>")
 
 vim.opt.guicursor = "n-v-c-i:block-blinkon1,r-cr:hor20-blinkon1"
 vim.g.mapleader = " "
@@ -11,6 +11,7 @@ set("v", "<leader>y", '"+y')
 
 opt.number = true
 opt.relativenumber = true
+opt.foldcolumn = "0"
 
 opt.wrap = false
 
