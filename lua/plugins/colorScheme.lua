@@ -28,8 +28,8 @@ return {
                     NormalFloat = { bg = "NONE" },
                     FloatBorder = { bg = "NONE", fg = theme.ui.bg_p1 },
                     FoldColumn = { bg = "" , fg = "NONE"},
-                    StatusLine = { bg = "none", fg = "white"},
-                    StatusLineNC = { bg = "none", fg = "white"}
+                    StatusLine = { bg = "#333333", fg = "#dddddd"},
+                    StatusLineNC = { bg = "#333333", fg = "#dddddd"}
                 }
             end
         })

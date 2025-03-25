@@ -54,3 +54,5 @@ vim.keymap.set("n", "<leader>|", "<cmd>vsplit<CR>", { noremap = true, silent = t
 vim.keymap.set("n", "<leader>/", "<cmd>split<CR>", { noremap = true, silent = true })
 
 vim.keymap.set("n", "<leader>x", "<cmd>!chmod +x %<CR>", {silent = true })
+
+vim.opt.statusline = "%f %y %m %r %= %p%% %l:%c"
