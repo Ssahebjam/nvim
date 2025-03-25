@@ -52,4 +52,4 @@ set("n", "<leader>l", "<C-w>l", {silent = true})
 vim.keymap.set("n", "<leader>|", "<cmd>vsplit<CR>", { noremap = true, silent = true })
 vim.keymap.set("n", "<leader>/", "<cmd>split<CR>", { noremap = true, silent = true })
 
-vim.keymap.set("n", "<leader>x", "<cmd>!chmode +x %<CR>", {silent = true })
+vim.keymap.set("n", "<leader>x", "<cmd>!chmod +x %<CR>", {silent = true })
